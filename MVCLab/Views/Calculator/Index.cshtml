@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>What do you want to calculate?</h1>
+
+<form action="../Calculator/Result" method="post">
+    Number1<input type="text" name="number1" />
+    Number2<input type="text" name="number2" />
+    Plus<input type="radio" name="problemSolve" value="Add" />
+    Minus<input type="radio" name="problemSolve" value="Subtract" />
+         <input type="submit"  value="Get the total!" />
+</form>
+
